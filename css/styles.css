@@ -4,8 +4,7 @@ nav {
     top: -100px;
     left: 0;
     width: 100%;
-    background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,0.9417016806722689) 0%, rgba(0,0,0,0) 100%);
+    background: rgba(0,0,0,0.4);
     text-align: center;
     padding: 20px 20px 30px 20px;
     z-index: 10000;
@@ -188,9 +187,6 @@ footer {
     flex-direction: row;
     overflow: hidden;
     z-index: 9999;
-    box-shadow: 1px -1px 54px 10px rgba(0,0,0,0.49);
--webkit-box-shadow: 1px -1px 54px 10px rgba(0,0,0,0.49);
--moz-box-shadow: 1px -1px 54px 10px rgba(0,0,0,0.49);
 }
 
 .ilustrasi-item {
