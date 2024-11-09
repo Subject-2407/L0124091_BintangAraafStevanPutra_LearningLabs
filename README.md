@@ -1,2 +1,2 @@
-# L0124091_BintangAraaf_LearningLabs
+# L0124091_BintangAraafStevanPutra_LearningLabs
 Sejarah Ilmu Komputer
