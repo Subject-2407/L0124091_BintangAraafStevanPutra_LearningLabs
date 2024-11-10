@@ -10,6 +10,11 @@
 </head>
 <body>
     <ul class="background">
+        <nav>
+            <div class="menu-item"><a href="index.html"><p class="text-slate-300 hover:text-amber-400 hover:">Beranda</p></a></div>
+            <div class="menu-item"><a href="content.html"><p class="text-slate-300 hover:text-amber-400">Sejarah</p></a></div>
+            <div class="menu-item"><a href="feedback.html"><p class="text-slate-300 hover:text-amber-400">Feedback</p></a></div>
+        </nav>
         <main>
             <form class="feedback-form bg-slate-200 p-5 rounded-lg w-2/4 h-fit">
                 <label for="nama" class="font-mono">Nama: </label><br>
@@ -54,7 +59,10 @@
      </ul>
      <script>
         window.addEventListener("load", function () {
+          const nav = document.querySelector("nav");
           const footer = document.querySelector("footer");
+          nav.style.animation = "none";
+          nav.style.top = "0px";
           footer.style.animation = "none";
           footer.style.bottom = "0px";
         });

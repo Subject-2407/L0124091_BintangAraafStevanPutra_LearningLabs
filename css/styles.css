@@ -13,7 +13,6 @@ nav {
     justify-content: center;
     animation: slideDown 2s ease-in-out forwards;
     animation-delay: 2s;
-    opacity: 0;
   }
   
   nav .menu-item {
