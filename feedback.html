@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/animasi3.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Feedback</title>
 </head>
 <body>
     <ul class="background">
+        <main>
+            <form class="feedback-form bg-slate-200 p-5 rounded-lg w-2/4 h-fit">
+                <label for="nama" class="font-mono">Nama: </label><br>
+                <input type="text" id="nama" name="nama" class="w-2/4 mt-2 rounded"><br><br>
+                <label for="feedback" class="font-mono">Masukkan feedback kamu untuk website ini: </label><br>
+                <textarea id="feedback" name="feedback" class="w-full h-52 mt-2 p-2 rounded"></textarea><br><br>
+                <div class="flex justify-center">
+                    <input type="submit" value="Submit" class="text-center bg-gray-300 pt-1 pb-2 pr-4 pl-4 rounded-lg hover:cursor-pointer hover:bg-gray-500 hover:text-white">
+                </div>
+            </form>
+        </div>
+
+
         <li></li>
         <li></li>
         <li></li>
@@ -32,6 +47,17 @@
         <li></li>
         <li></li>
         <li></li>
+
+        <footer>
+            <p class="text-slate-400 text-xs mt-5">Learning Labs 2024 L0124091 Bintang A'raaf Stevan Putra</p>
+        </footer>
      </ul>
+     <script>
+        window.addEventListener("load", function () {
+          const footer = document.querySelector("footer");
+          footer.style.animation = "none";
+          footer.style.bottom = "0px";
+        });
+      </script>
 </body>
 </html>
